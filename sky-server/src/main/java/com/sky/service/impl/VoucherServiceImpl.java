@@ -13,8 +13,6 @@ import org.springframework.stereotype.Service;
 public class VoucherServiceImpl implements VoucherService {
 
 
-    @Autowired
-    private VoucherMapper voucherMapper;
 
     @Override
     public void addSeckillVoucher(Voucher voucher) {
